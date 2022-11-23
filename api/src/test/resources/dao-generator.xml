@@ -22,8 +22,8 @@
 
         <!-- 数据库配置，需要修改 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/apidev" userId="apidev"
-                        password="apidev">
+                        connectionURL="jdbc:mysql://localhost:3306/aims" userId="root"
+                        password="dpms@123!">
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false" />

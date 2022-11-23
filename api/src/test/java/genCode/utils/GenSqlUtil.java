@@ -14,9 +14,9 @@ public class GenSqlUtil {
 			System.out.println("找不到驱动程序类 ，加载驱动失败！");
 			e.printStackTrace();
 		}
-		String url = "jdbc:mysql://localhost:3306/apidev?useUnicode=true&characterEncoding=utf-8";
-		String username = "apidev";
-		String password = "apidev";
+		String url = "jdbc:mysql://localhost:3306/aims?useUnicode=true&characterEncoding=utf-8";
+		String username = "root";
+		String password = "dpms@123!";
 		try {
 			Connection con = DriverManager.getConnection(url, username, password);
 			return con;
